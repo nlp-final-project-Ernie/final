@@ -6,7 +6,7 @@ import logging
 import numpy as np
 import matplotlib.pyplot as plt
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import tensorflow_hub as hub
 import tensorflow_datasets as tfds
 
@@ -17,7 +17,9 @@ from tqdm import tqdm
 from config import config
 from arguments import args
 
-from data.load import load_cnn_dailymail
+# from data.load import load_cnn_dailymail
+# 导入数据
+from datasets import load_dataset,load_from_disk, get_dataset_split_names
 
 from random import randint
 from rouge import Rouge
@@ -44,7 +46,8 @@ logger.setLevel(logging.INFO)
 tf.logging.set_verbosity(tf.logging.INFO) 
 tf.enable_resource_variables()
 # 禁用急切执行模式
-tf.compat.v1.disable_eager_execution()
+# tf.compat.v1.disable_eager_execution()
+tf.compat.v1.disable_v2_behavior()
 
 logging.info('Job Configuration:\n' + str(config))   
 
@@ -60,6 +63,7 @@ model = AbstractiveSummarization(
     rate=config.DROPOUT_RATE
 )
 
+dataset = load_from_disk("A:\\_Uni\\senior\\nlp\\final project\\cnndm")
 
 train_dataset, val_dataset, test_dataset, n_train_examples, n_val_examples, n_test_examples = load_cnn_dailymail()
 
