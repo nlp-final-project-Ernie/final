@@ -43,6 +43,8 @@ logger.setLevel(logging.INFO)
 
 tf.logging.set_verbosity(tf.logging.INFO) 
 tf.enable_resource_variables()
+# 禁用急切执行模式
+tf.compat.v1.disable_eager_execution()
 
 logging.info('Job Configuration:\n' + str(config))   
 
