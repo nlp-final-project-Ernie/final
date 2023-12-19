@@ -1,0 +1,360 @@
+ERROR: 12-16 14:49:10: register.py:106 * 12524 error in import modules
+ERROR: 12-16 14:49:10: register.py:107 * 12524 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\doie_ernie_tiny_tokenizer.py", line 18, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-16 14:49:10: register.py:106 * 12524 error in import modules
+ERROR: 12-16 14:49:10: register.py:107 * 12524 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\mrc_tokenizer.py", line 21, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-16 14:49:10: register.py:106 * 12524 error in import modules
+ERROR: 12-16 14:49:10: register.py:107 * 12524 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\tokenization_erniem.py", line 34, in <module>
+    import sentencepiece as spm
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-16 14:49:10: register.py:106 * 12524 error in import modules
+ERROR: 12-16 14:49:10: register.py:107 * 12524 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\tokenization_mix.py", line 31, in <module>
+    from .tokenization_wp import FullTokenizer
+  File "../../..\erniekit\data\tokenizer\tokenization_wp.py", line 32, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-16 14:49:10: register.py:106 * 12524 error in import modules
+ERROR: 12-16 14:49:10: register.py:107 * 12524 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\tokenization_spm.py", line 34, in <module>
+    import sentencepiece as spm
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-16 14:49:10: register.py:106 * 12524 error in import modules
+ERROR: 12-16 14:49:10: register.py:107 * 12524 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\tokenization_wp.py", line 32, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-16 14:49:10: register.py:124 * 12524 error in import ernie_infilling_generation
+ERROR: 12-16 14:49:10: register.py:125 * 12524 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 121, in import_new_module
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "D:\Downloads\ERNIE-ernie-kit-open-v1.0_\ERNIE-ernie-kit-open-v1.0\applications\tasks\text_generation\model\ernie_infilling_generation.py", line 21, in <module>
+    from erniekit.metrics.gen_eval import GenerationEval
+  File "../../..\erniekit\metrics\gen_eval.py", line 25, in <module>
+    from erniekit.data.tokenizer.tokenization_wp import BasicTokenizer
+  File "../../..\erniekit\data\tokenizer\tokenization_wp.py", line 32, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-17 01:32:17: register.py:106 * 8116 error in import modules
+ERROR: 12-17 01:32:17: register.py:107 * 8116 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\doie_ernie_tiny_tokenizer.py", line 18, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-17 01:32:17: register.py:106 * 8116 error in import modules
+ERROR: 12-17 01:32:17: register.py:107 * 8116 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\mrc_tokenizer.py", line 21, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-17 01:32:17: register.py:106 * 8116 error in import modules
+ERROR: 12-17 01:32:17: register.py:107 * 8116 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\tokenization_erniem.py", line 34, in <module>
+    import sentencepiece as spm
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-17 01:32:17: register.py:106 * 8116 error in import modules
+ERROR: 12-17 01:32:17: register.py:107 * 8116 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\tokenization_mix.py", line 31, in <module>
+    from .tokenization_wp import FullTokenizer
+  File "../../..\erniekit\data\tokenizer\tokenization_wp.py", line 32, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-17 01:32:17: register.py:106 * 8116 error in import modules
+ERROR: 12-17 01:32:17: register.py:107 * 8116 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\tokenization_spm.py", line 34, in <module>
+    import sentencepiece as spm
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-17 01:32:17: register.py:106 * 8116 error in import modules
+ERROR: 12-17 01:32:17: register.py:107 * 8116 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 103, in import_modules
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../../..\erniekit\data\tokenizer\tokenization_wp.py", line 32, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+ERROR: 12-17 01:32:17: register.py:124 * 8116 error in import ernie_infilling_generation
+ERROR: 12-17 01:32:17: register.py:125 * 8116 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 121, in import_new_module
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "D:\Downloads\ERNIE-ernie-kit-open-v1.0_\ERNIE-ernie-kit-open-v1.0\applications\tasks\text_generation\model\ernie_infilling_generation.py", line 21, in <module>
+    from erniekit.metrics.gen_eval import GenerationEval
+  File "../../..\erniekit\metrics\gen_eval.py", line 25, in <module>
+    from erniekit.data.tokenizer.tokenization_wp import BasicTokenizer
+  File "../../..\erniekit\data\tokenizer\tokenization_wp.py", line 32, in <module>
+    import sentencepiece as sp
+ModuleNotFoundError: No module named 'sentencepiece'
+
+WARNING: 12-17 01:36:21: register.py:25 * 16112 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 01:42:54: register.py:25 * 4624 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 01:43:47: register.py:25 * 14272 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 01:44:51: register.py:25 * 14088 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 02:08:08: register.py:25 * 16772 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 02:14:52: register.py:25 * 19404 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 13:21:57: register.py:25 * 23024 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 17:10:21: register.py:25 * 22428 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 17:11:10: register.py:25 * 6960 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 17:17:54: register.py:25 * 18136 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 17:18:43: register.py:25 * 20328 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 17:18:58: register.py:25 * 16520 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 17:20:38: register.py:25 * 24312 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 17:21:35: register.py:25 * 17400 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 17:23:24: register.py:25 * 24268 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 17:30:08: register.py:25 * 23580 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 20:44:39: register.py:25 * 23428 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 20:52:27: register.py:25 * 20840 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 21:11:16: register.py:25 * 22868 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 21:14:37: register.py:25 * 20072 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 21:15:21: register.py:25 * 24716 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 21:23:28: register.py:25 * 25192 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 21:26:17: register.py:25 * 19420 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 21:28:26: register.py:25 * 12800 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 21:29:44: register.py:25 * 24508 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 21:30:11: register.py:25 * 20240 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 21:31:43: register.py:25 * 20312 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 22:01:43: register.py:25 * 5088 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 22:13:56: register.py:25 * 5228 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 22:16:39: register.py:25 * 22776 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 22:20:38: register.py:25 * 20264 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 22:23:37: register.py:25 * 23804 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 22:27:17: register.py:25 * 20396 Key WordsegTokenizer already in registry tokenizer.
+ERROR: 12-17 22:27:17: register.py:124 * 20396 error in import ernie_infilling_generation
+ERROR: 12-17 22:27:17: register.py:125 * 20396 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 121, in import_new_module
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "D:\Downloads\ERNIE-ernie-kit-open-v1.0_\ERNIE-ernie-kit-open-v1.0\applications\tasks\text_generation\model\ernie_infilling_generation.py", line 18, in <module>
+    from erniekit.modules.ernie_gen import ErnieGenModel
+  File "../../..\erniekit\modules\ernie_gen.py", line 20, in <module>
+    from erniekit.modules.transformer_encoder_gen import encoder, two_stream_encoder, pre_process_layer
+  File "../../..\erniekit\modules\transformer_encoder_gen.py", line 311
+    out = F.dropout(out, p=dropout_rate)
+    ^
+IndentationError: unexpected indent
+
+ERROR: 12-17 22:27:17: register.py:46 * 20396 module {key} not found: {e}
+WARNING: 12-17 22:28:01: register.py:25 * 19148 Key WordsegTokenizer already in registry tokenizer.
+ERROR: 12-17 22:28:01: register.py:124 * 19148 error in import ernie_infilling_generation
+ERROR: 12-17 22:28:01: register.py:125 * 19148 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 121, in import_new_module
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "D:\Downloads\ERNIE-ernie-kit-open-v1.0_\ERNIE-ernie-kit-open-v1.0\applications\tasks\text_generation\model\ernie_infilling_generation.py", line 18, in <module>
+    from erniekit.modules.ernie_gen import ErnieGenModel
+  File "../../..\erniekit\modules\ernie_gen.py", line 20, in <module>
+    from erniekit.modules.transformer_encoder_gen import encoder, two_stream_encoder, pre_process_layer
+  File "../../..\erniekit\modules\transformer_encoder_gen.py", line 311
+    out = F.dropout(out, p=dropout_rate)
+    ^
+IndentationError: unexpected indent
+
+ERROR: 12-17 22:28:01: register.py:46 * 19148 module {key} not found: {e}
+WARNING: 12-17 22:28:42: register.py:25 * 12396 Key WordsegTokenizer already in registry tokenizer.
+ERROR: 12-17 22:28:42: register.py:124 * 12396 error in import ernie_infilling_generation
+ERROR: 12-17 22:28:42: register.py:125 * 12396 traceback.format_exc():
+Traceback (most recent call last):
+  File "../../..\erniekit\common\register.py", line 121, in import_new_module
+    importlib.import_module(full_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "D:\Downloads\ERNIE-ernie-kit-open-v1.0_\ERNIE-ernie-kit-open-v1.0\applications\tasks\text_generation\model\ernie_infilling_generation.py", line 18, in <module>
+    from erniekit.modules.ernie_gen import ErnieGenModel
+  File "../../..\erniekit\modules\ernie_gen.py", line 20, in <module>
+    from erniekit.modules.transformer_encoder_gen import encoder, two_stream_encoder, pre_process_layer
+  File "../../..\erniekit\modules\transformer_encoder_gen.py", line 311
+    out = F.dropout(out,p=dropout_rate)
+                                      ^
+IndentationError: unindent does not match any outer indentation level
+
+ERROR: 12-17 22:28:42: register.py:46 * 12396 module {key} not found: {e}
+WARNING: 12-17 22:29:58: register.py:25 * 7256 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 22:30:55: register.py:25 * 22840 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 22:33:35: register.py:25 * 23108 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 22:37:23: register.py:25 * 19928 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 23:02:31: register.py:25 * 18844 Key WordsegTokenizer already in registry tokenizer.
+WARNING: 12-17 23:33:50: register.py:25 * 23800 Key WordsegTokenizer already in registry tokenizer.
